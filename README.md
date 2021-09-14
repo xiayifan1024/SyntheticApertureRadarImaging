@@ -11,7 +11,7 @@ Comments are Chinese, and some comments need to be optimized
 
 
 
-RD,CS,wK,3种算法的matlab代码,包含点目标模拟(正侧视,大角度斜视之后再说吧),真实数据成像
+RD,CS,wK,3种算法的matlab代码,包含点目标模拟(目前只适用于正侧视,斜视信号可以仿真生成,但是成像算法有偏差),真实数据成像
 
 部分代码需要优化
 
@@ -32,7 +32,7 @@ Ian G. Cumming, Frank H.W 著《合成孔径雷达成像算法与实现》(主�
 
 Achim Hein 著 Processing of SAR Data——Fundamentals,Signal Processing,Interferomentry
 
-https://gitee.com/zhaofei2048/sar-algorithm 代码规范,美观
+https://gitee.com/zhaofei2048/sar-algorithm 代码规范,美观(人家不给看了)
 
 https://github.com/xiayifan1024/SAR-Synthetic-Aperture-Radar/ RD,CS完整
 
