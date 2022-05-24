@@ -34,7 +34,7 @@ Achim Hein 著 Processing of SAR Data——Fundamentals,Signal Processing,Interf
 
 https://gitee.com/zhaofei2048/sar-algorithm 代码规范,美观(人家不给看了)
 
-https://github.com/xiayifan1024/SAR-Synthetic-Aperture-Radar/ RD,CS完整
+https://github.com/denkywu/SAR-Synthetic-Aperture-Radar RD,CS完整
 
 https://wenku.baidu.com/view/2ed300dbcc1755270622080f?fr=uc RD,CS简单易懂
 
@@ -46,3 +46,6 @@ https://wenku.baidu.com/view/2ed300dbcc1755270622080f?fr=uc RD,CS简单易懂
 |RangeDoppler |        O      |            |
 |ChirpScaling |        O      |            |
 |   omega-K   |        O       |            |
+
+----------------------------------------------------------------------------------------
+咕了，搞SAR目标检测去了。
