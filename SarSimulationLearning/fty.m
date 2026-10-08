@@ -1,4 +1,4 @@
-function fs=fty(s)
-%对矩阵行做fft
-fs = fftshift(fft(fftshift(s.'))).';
-%fs=fftshift(fft(fftshift(s,2),[],2),2);
+function out = fty(s)
+% 中心化FFT，显式指定第 2 维，支持奇数长度。
+out = fftshift(fft(ifftshift(s,2),[],2),2);
+end

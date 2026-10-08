@@ -1,7 +1,4 @@
-function s=ifty(fs)
-%IFTY 此处显示有关此函数的摘要
-%   对矩阵行做ifft
-s=ifftshift(ifft(ifftshift(fs.'))).';
-%s=ifftshift(ifft(ifftshift(fs,2),[],2),2);
+function out = ifty(s)
+% 中心化IFFT，显式指定第 2 维，支持奇数长度。
+out = fftshift(ifft(ifftshift(s,2),[],2),2);
 end
-

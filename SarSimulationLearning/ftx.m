@@ -1,7 +1,4 @@
-function fs = ftx(s)
-%FTX 此处显示有关此函数的摘要
-%   此处显示详细说明
-fs = fftshift(fft(fftshift(s)));
-%fs=fftshift(fft(fftshift(s,1)),1);
+function out = ftx(s)
+% 中心化FFT，显式指定第 1 维，支持奇数长度。
+out = fftshift(fft(ifftshift(s,1),[],1),1);
 end
-
